@@ -420,6 +420,7 @@ func Provider() terraform.ResourceProvider {
 			"aws_elasticsearch_domain_policy":                  resourceAwsElasticSearchDomainPolicy(),
 			"aws_elastictranscoder_pipeline":                   resourceAwsElasticTranscoderPipeline(),
 			"aws_elastictranscoder_preset":                     resourceAwsElasticTranscoderPreset(),
+			"aws_ec2_fleet":                                    resourceAwsEC2Fleet(),
 			"aws_elb":                                          resourceAwsElb(),
 			"aws_elb_attachment":                               resourceAwsElbAttachment(),
 			"aws_emr_cluster":                                  resourceAwsEMRCluster(),
